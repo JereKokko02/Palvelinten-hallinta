@@ -13,7 +13,9 @@
 - Tein vagrantilla uuden koneen ajamalla ensin powershellin kautta komennot: $ vagrant init debian/bullseye64 $ vagrant up $ vagrant ssh jotka sain suoraan tehtävien ohjeiden vinkeistä. Näillä komennoilla luotiin uusi vagrantfile jonka perusteella uusi virtuaalikone luodaan, luotiin itse virtuaalikone ja otettiin siihen yhteys ssh:n avulla.
   
 
-a) 
+### a) 
 - asensin salt-minionin uudelle linux virtuaalikoneelle komennolla sudo apt-get install salt-minion ja katsoin komennolla whereis salt-minion sen asennussijainnin josta pääsin avaamaan nanolla sen.
-b)
-c)
+  
+### b)
+
+### c)
