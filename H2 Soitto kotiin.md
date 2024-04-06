@@ -20,4 +20,6 @@
 - Moduulin indempotenssi.
 - Lopussa listattuna muutamia saltin state -funktioita.
 
-# a)
+
+
+# a) Asenna kaksi virtuaalikonetta samaan verkkoon.
