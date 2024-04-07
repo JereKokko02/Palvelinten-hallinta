@@ -121,6 +121,9 @@ State-tiedoston ajaminen tapahtui komennolla sudo salt '*' state.apply hello:
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/cb4cfffd-64ca-4fa0-8350-4e878413bd23)
 
+Koodin onnistuminen testattiin etsimällä Minion-koneesta siihen juuri luotu tekstitiedosto:
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/3988130c-9155-4713-875c-baa277b327cb)
 
 
 
