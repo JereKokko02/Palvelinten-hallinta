@@ -31,21 +31,7 @@ Tehtävä alkoi kahden melkein identtisen virtuaalikoneen luomisella vagrantfile
 
 Tämän jälkeen avasin vagrantfilen muistiolla ja muutin sen sisällön vastaavasti:
 
-''' Vagrant.configure("2") do |config|
-	config.vm.synced_folder ".", "/vagrant", disabled: true
-	config.vm.synced_folder "shared/", "/home/vagrant/shared", create: true
-	config.vm.box = "debian/bullseye64"
-
-	config.vm.define "t001" do |t001|
-		t001.vm.hostname = "t001"
-		t001.vm.network "private_network", ip: "192.168.88.101"
-	end
-
-	config.vm.define "t002", primary: true do |t002|
-		t002.vm.hostname = "t002"
-		t002.vm.network "private_network", ip: "192.168.88.102"
-	end
-end '''
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/9016badf-224c-4352-9862-9ab0c929e574)
 
 Tällä muutoksella vagrant siis luo kaksi identtistä linux-konetta joilla on kuitenkin eri nimet, (t001, t002) sekä eri IP-osoitteet (192.168.88.101, 192.168.88.102). Koneiden luomisen jälkeen käynnistin ne cmd komennolla "vagrant up" ja pystyin aloittamaan niiden testaamisen.
 
