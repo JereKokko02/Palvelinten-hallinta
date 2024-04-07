@@ -85,5 +85,31 @@ Nyt Minion-kone oli linkitetty Master-koneeseen ja master-koneella pystyi ajamaa
 
 # d) Aja useita idempotentteja (state.single) komentoja master-slave yhteyden yli.
 
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/8c60ae4c-6ac1-4df8-a067-544748886574)
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/e2d8443b-7874-4ed5-9ae8-3c1253566fbb)
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/453c2231-f106-4829-8d56-4b914acbdfd3)
+
+
+
+# e) Kerää teknisiä tietoja orjista verkon yli (grains.item).
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/a0437588-345a-4612-873d-9597f923c42f)
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/e73c2d4c-a3b5-4565-883c-6d8b369ca787)
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/cf105510-741d-42ba-a8e1-51129628ff3e)
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/d7483c26-1015-40a3-846c-449be00aed80)
+
+
+// Jos ei tiedä/muista grains -moduulin nimeä niin komennolla: "sudo salt '*' grains.ls" saa listattua kaikki asennetut moduulit. //
+
+
+
+
+
+
 
 
