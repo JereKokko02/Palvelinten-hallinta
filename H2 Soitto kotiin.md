@@ -99,13 +99,16 @@ Nyt Minion-kone oli linkitetty Master-koneeseen ja master-koneella pystyi ajamaa
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/e73c2d4c-a3b5-4565-883c-6d8b369ca787)
 
-![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/cf105510-741d-42ba-a8e1-51129628ff3e)
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/50666136-c135-4052-814f-edd42a0f0f58)
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/d7483c26-1015-40a3-846c-449be00aed80)
 
 
 // Jos ei tiedä/muista grains -moduulin nimeä niin komennolla: "sudo salt '*' grains.ls" saa listattua kaikki asennetut moduulit. //
 
+
+
+# f) Tee infraa koodina kirjoittamalla /srv/salt/hello/init.sls.
 
 
 
