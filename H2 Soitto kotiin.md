@@ -79,6 +79,11 @@ Nyt Minion-kone oli linkitetty Master-koneeseen ja master-koneella pystyi ajamaa
 
 # c) Aja shell-komento orjalla saltin master-slave yhteyden yli.
 
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/055041a0-8ec5-4dab-9cb2-40f907a0c36f)
+
+
+
+# d) Aja useita idempotentteja (state.single) komentoja master-slave yhteyden yli.
 
 
 
