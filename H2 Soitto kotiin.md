@@ -109,6 +109,19 @@ Nyt Minion-kone oli linkitetty Master-koneeseen ja master-koneella pystyi ajamaa
 
 
 # f) Tee infraa koodina kirjoittamalla /srv/salt/hello/init.sls.
+Tässä tehtävässä oli tarkoituksena luoda yksi state-tiedosto joka pystytään ajamaan kaikilla salt-orjakoneilla. Tehtävä tehtiin noudatten Tero Karvisen ohjetta (katso lähde 3).
+
+Ensimmäiseksi Master-koneelle pitää luoda tiedostosijainti johon state-tiedosto luodaan. Tämä tapahtui ajamalla master-koneella komento "sudo mkdir -p /srv/salt/ ja luomalla luotuun sijaintiin .sls tekstitiedosto komennolla "sudoedit /srv/salt/Hello.sls. Tekstitiedostoa muokattiin ohjeita noudattaen seuraavasti:
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/53edfa9d-c96d-4c24-b5dc-72130f0e314d)
+
+Tämän jälkeen luotiin itse hellotero.txt johon aikaisempi koodi viitta komennolla "sudoedit /srv/salt/hellotero.txt" ja sen sisältöön kirjoitettiin "see you at http://TeroKarvinen.com"
+
+State-tiedoston ajaminen tapahtui komennolla sudo salt '*' state.apply hello:
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/cb4cfffd-64ca-4fa0-8350-4e878413bd23)
+
+
 
 
 
