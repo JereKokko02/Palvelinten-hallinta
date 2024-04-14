@@ -50,6 +50,24 @@ Mutta hahaa! Muistinkin että olin ladannut aikaisemman version jo githubiin ja 
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/4f2a8a15-df22-4583-8c71-f83d450681ef)
 
+# d) 
+
+Git log komennolla saa vastaavat tiedot: 
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/751c74e4-c44d-4049-88c5-e950b56edd0c)
+
+jossa:
+
+date tarkoittaa sitä, milloin muutokset on puskettu läpi (commit)
+author tarkoittaa muutoksen tekijää
+commit on taas ajettujen muutosten tieto muutettuna siten, että github ymmärtää sen??
+
+# e) 
+
+Tässä tehtävässä minulla oli ongelmana se, että olin tehnyt git tehtävät salt-master koneella, eli en pystynyt ajamaan --local komentoja. Pystyin kuitenkin ajamaan summer reposta komentoja minionille vaikka sitä ei tehtävässä haetukkaan.
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/a31b8e57-1377-4a1b-845e-226ecb9ed809)
+
 
  
 
