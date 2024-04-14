@@ -17,5 +17,10 @@
 # b) 
 Aluksi täytyy luoda uusi ssh-avain linuxin puolella komennolla "ssh-keygen" jonka jälkeen kopioida sen tuottama julkinen avain githubiin:
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/ba199654-727e-437d-98d1-7933c2ff5765)
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/122bcc66-67e6-4b0d-a488-1d428d95ddf3)
+
+Tämän jälkeen repon voi kloonata linuxin puolella hakemalla ensin repon oman ssh-avaimen ja ajamalla komennon "git clone + ssh-avain" 
+
+
 
 
