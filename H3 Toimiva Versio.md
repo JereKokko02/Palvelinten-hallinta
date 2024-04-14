@@ -18,6 +18,8 @@
 Aluksi täytyy luoda uusi ssh-avain linuxin puolella komennolla "ssh-keygen" jonka jälkeen kopioida sen tuottama julkinen avain githubiin:
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/ba199654-727e-437d-98d1-7933c2ff5765)
+
+Äsken tuotettu avain liitettynä Githubiin (Summer-avain).
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/122bcc66-67e6-4b0d-a488-1d428d95ddf3)
 
 Tämän jälkeen repon voi kloonata linuxin puolella hakemalla ensin repon oman ssh-avaimen ja ajamalla komennon "git clone + ssh-avain" 
@@ -36,6 +38,15 @@ Itse muutoksen tekeminen komennolla "git add . && git commit; git pull && git pu
 Muutos näkyykin sitten oikeassa repossa:
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/bc38f0ce-1034-4d18-a40b-62f9030b7799)
+
+# c)
+ Voi ei! Olen mennyt luomaan väärän tiedoston summer repoon ja vielä lähettänyt sen eteenpäin. Nyt menetän miljoonaideani ja salaisen sivubisnekseni nimeämättömän afrikkalaisen valtion kanssa. Voinko tehdä mitään tämän estämiseksi?
+ 
+ ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/eba1522e-6aca-4198-9471-bfe318f27dfc)
+
+ ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/70e4ce12-25f2-4cbc-b6eb-fdc35c919049)
+
+ 
 
 
 
