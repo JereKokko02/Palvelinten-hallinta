@@ -33,6 +33,11 @@ Itse muutoksen tekeminen komennolla "git add . && git commit; git pull && git pu
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/c6511fc3-7c9e-4fd5-affd-3f558358091a)
 
+Muutos näkyykin sitten oikeassa repossa:
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/bc38f0ce-1034-4d18-a40b-62f9030b7799)
+
+
 
 
 
