@@ -70,9 +70,9 @@ Git log komennolla saa vastaavat tiedot:
 
 jossa:
 
-date tarkoittaa sitä, milloin muutokset on puskettu läpi (commit)
-author tarkoittaa muutoksen tekijää
-commit on taas ajettujen muutosten tieto muutettuna siten, että github ymmärtää sen??
+- date tarkoittaa sitä, milloin muutokset on puskettu läpi (commit)
+- author tarkoittaa muutoksen tekijää
+- commit on taas ajettujen muutosten tieto muutettuna siten, että github ymmärtää sen??
 
 # e) 
 
