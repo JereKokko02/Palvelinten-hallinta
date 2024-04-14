@@ -14,4 +14,8 @@
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/7574c624-360f-47d3-9fa7-c94e0c3db12e)
 
-# b)
+# b) 
+Aluksi täytyy luoda uusi ssh-avain linuxin puolella komennolla "ssh-keygen" jonka jälkeen kopioida sen tuottama julkinen avain githubiin:
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/ba199654-727e-437d-98d1-7933c2ff5765)
+
+
