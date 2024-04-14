@@ -1,5 +1,5 @@
 # x)
-- Chacon and Straub 2014:
+- Chacon and Straub 2014: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
   - Gitin manuaali
   - 1.3 osuudessa taas gitin toiminta, sen erot muista versiontallennus ohjelmista
   - 1.3 osuudessa käytännössä kerrotaan pähkinänkuoressa gitin toiminta havannoivilla kuvilla sekä niiden kuvauksilla.
@@ -8,7 +8,16 @@
   - git add: Oman ymmärrykseni mukaan tämä komento on ns "valmisteleva" tekijä ennen varsinaista lähetysvaihetta. Elikkä git add siis lisää haluttavat muutokset lähetysvalmiuteen.
   - && git commit: Tämä komento tallentaa aikaisemmat tiedostot. Tämä on siis vähän sama kuin virtual boxissa snapshotit.
   - git pull: Hakee muutokset repositorystä nykyiseen sessioon.
-  - %% git push: En ymmärrä.
+  - %% git push: Vie muutokset remote repositoryyn.
+
+    Käytin tässä havainnollistavaa kuvaa (lähde 1)
+ 
+- Varaston terokarvinen historia: https://github.com/terokarvinen/suolax/
+  - Käyttäjän Tero Karvinen Suolax repo ja sen sisältö
+  - mm salt -komentoja sekä valmiita salt stateja
+
+
+
  
 # a) 
 
@@ -74,7 +83,9 @@ Tässä tehtävässä minulla oli ongelmana se, että olin tehnyt git tehtävät
 
  
 
-
+# Lähteet
+1. https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40nmpegetis%2Fgit-how-to-start-code-changes-commit-and-push-changes-when-working-in-a-team-dbc6da3cd34c&psig=AOvVaw0s6trlTsSLETob41KZhVjK&ust=1713211629944000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDu4-LAwoUDFQAAAAAdAAAAABAE
+   
 
 
 
