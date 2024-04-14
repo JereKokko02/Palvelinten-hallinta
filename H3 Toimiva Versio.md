@@ -5,7 +5,13 @@
   - 1.3 osuudessa käytännössä kerrotaan pähkinänkuoressa gitin toiminta havannoivilla kuvilla sekä niiden kuvauksilla.
  
 - git add . && git commit; git pull && git push
-  -git add:
-  -&& git commit
-  - git pull
-  - %% git push
+  - git add: Oman ymmärrykseni mukaan tämä komento on ns "valmisteleva" tekijä ennen varsinaista lähetysvaihetta. Elikkä git add siis lisää haluttavat muutokset lähetysvalmiuteen.
+  - && git commit: Tämä komento tallentaa aikaisemmat tiedostot. Tämä on siis vähän sama kuin virtual boxissa snapshotit.
+  - git pull: Hakee muutokset repositorystä nykyiseen sessioon.
+  - %% git push: En ymmärrä.
+ 
+# a) 
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/7574c624-360f-47d3-9fa7-c94e0c3db12e)
+
+# b)
