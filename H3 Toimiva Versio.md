@@ -20,11 +20,14 @@ Aluksi täytyy luoda uusi ssh-avain linuxin puolella komennolla "ssh-keygen" jon
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/ba199654-727e-437d-98d1-7933c2ff5765)
 
 Äsken tuotettu avain liitettynä Githubiin (Summer-avain).
+
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/122bcc66-67e6-4b0d-a488-1d428d95ddf3)
 
 Tämän jälkeen repon voi kloonata linuxin puolella hakemalla ensin repon oman ssh-avaimen ja ajamalla komennon "git clone + ssh-avain" 
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/8048806b-cae4-4278-a583-3ea0318fdaff)
+
+
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/c29a44eb-ec16-4de1-9fa2-39c1e14dfa26)
 
 Sisällön voi sitten tarkistaa siirtymällä repoon ja ajamalla ls komennon:
