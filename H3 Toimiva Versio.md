@@ -29,6 +29,11 @@ Sisällön voi sitten tarkistaa siirtymällä repoon ja ajamalla ls komennon:
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/a714a97c-4141-4c45-b793-b4c43fa5b5a7)
 
+Itse muutoksen tekeminen komennolla "git add . && git commit; git pull && git push" :
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/c6511fc3-7c9e-4fd5-affd-3f558358091a)
+
+
 
 
 
