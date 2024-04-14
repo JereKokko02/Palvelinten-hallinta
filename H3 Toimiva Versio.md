@@ -46,6 +46,11 @@ Muutos näkyykin sitten oikeassa repossa:
 
  ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/70e4ce12-25f2-4cbc-b6eb-fdc35c919049)
 
+Mutta hahaa! Muistinkin että olin ladannut aikaisemman version jo githubiin ja voin palata siihen komennolla "git reset --hard" joka tuhoaa nykyiset muutokset. Nyt minun ei tarvitse huolehtia miljoonaideastani eikä perua afrikan lentoa!
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/4f2a8a15-df22-4583-8c71-f83d450681ef)
+
+
  
 
 
