@@ -24,7 +24,8 @@ Ja näin saltti asensi valitut paketit minion koneelle kun ajettiin komento "sud
 
 #c( 
 
-// korvattu sivu man
+Tein manuaalisen asennuksen ihan vain seuraamalla Ubuntu.comin ohjeita (lähde 4) ja korvasin /var/www/html -hakemiston index.html tiedoston haluamakseni:
+
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/f9bbf7cd-d0a2-424e-98c2-fe5927e06243)
 
 
@@ -39,4 +40,4 @@ Ja näin saltti asensi valitut paketit minion koneelle kun ajettiin komento "sud
 
 # Lähteet
 
-https://ubuntu.com/tutorials/install-and-configure-apache#3-creating-your-own-website
+4 https://ubuntu.com/tutorials/install-and-configure-apache#3-creating-your-own-website
