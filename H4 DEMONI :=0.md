@@ -28,7 +28,9 @@ Karvinen 2018: Pkg-File-Service – Control Daemons with Salt – Change SSH Ser
 
 
 
-#a) 
+#a) Hello SLS! Tee Hei maailma -tila kirjoittamalla se tekstitiedostoon
+
+Tätä en saanut toimimaan vaikka yritin, sillä saan ajettua vaikka mitä muita tiloja, mutta en saa ajettua tilaa jolla minion-kone printtaa hello world tekstin. Otan mielelläni ohjeet vastaan jos arvioija on tämän hiffannut!
 
 
 #b) Top. Tee top.sls niin, että useita valitsemiasi tiloja ajetaan automaattisesti
@@ -69,6 +71,27 @@ Tämän jälkeen ajoin kyseisen tilan aivan normaalisti komennolla "sudo salt '*
 Saltti asensi apachen onnostuneesti minion-koneelle.
 
 
+#d) SSHouto. Lisää uusi portti, jossa SSHd kuuntelee.
+
+Tein tämän tehtävän noudatten Tero Karvisen ohjetta (katso lähde 3).
+
+Aluksi loin uuden sshd.sls tilafunktion kohteeseen /srv/salt/ ja kirjoitin sinne vastaavat tiedot:
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/bd2750b4-5a68-40ba-bff2-d747079d9664)
+
+Tämän jälkeen loin samaan sijaintiin tiedoston sshd_config johon aikaisempi tila viittaa ja tein vastaavat muutokset:
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/d5ab5af8-722b-4004-921a-de34cfb294e5)
+
+Tämän jälkeen ajoin tilan komennolla "sudo salt '*' state.apply sshd"
+
+Koko litania ei millään mahdu järkevästi githubiin mutta käytännössä tästä kuvankaappauksesta näkyy että tilan ajo onnistui:
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/20913923-8ea0-4930-a96c-16030ba73312)
+
+Ssh:lla saa nyt otettua yhteyden minioniin:
+
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/f2ee75e1-542a-4220-9c48-fcc65e982cb3)
 
 
 
