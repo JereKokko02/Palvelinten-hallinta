@@ -66,7 +66,7 @@ Tämän jälkeen ajoin kyseisen tilan aivan normaalisti komennolla "sudo salt '*
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/ede99b3b-99b2-48a4-8bc2-9cb9027f8258)
 
-
+Saltti asensi apachen onnostuneesti minion-koneelle.
 
 
 
