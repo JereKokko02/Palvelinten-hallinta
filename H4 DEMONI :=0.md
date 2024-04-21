@@ -62,12 +62,11 @@ En saanut tehtyä apachen automaattista asennusta siten, että saltti-tilafunkti
 Aluksi loin master-koneelle uuden tilafunktion kohteeseen /srv/salt/init.sls johon kirjoitin vastaavat komennot:
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/27e1e76c-bc91-4364-aca3-088d35e8b2bc)
 
+Tämän jälkeen ajoin kyseisen tilan aivan normaalisti komennolla "sudo salt '*' state.apply init":
 
-Init ajo
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/ede99b3b-99b2-48a4-8bc2-9cb9027f8258)
 
 
-+ miksi ei onnistunut
 
 
 
