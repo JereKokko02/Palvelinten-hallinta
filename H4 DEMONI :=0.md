@@ -28,6 +28,7 @@ Tein manuaalisen asennuksen ihan vain seuraamalla Ubuntu.comin ohjeita (lähde 4
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/f9bbf7cd-d0a2-424e-98c2-fe5927e06243)
 
+Indeksi -sivun vaihdon testasin host-os:n kautta kirjoittamalla virtuaalikoneen ip-osoitteen hakukenttään.
 
 
 
