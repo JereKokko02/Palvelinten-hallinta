@@ -7,11 +7,11 @@ Tein tämän tehtävän ensin luomalla
 
 #b) Top. Tee top.sls niin, että useita valitsemiasi tiloja ajetaan automaattisesti
 
-Tässä tehtävässä loin aluksi uuden hakemiston /srv/salt/ jonne loin nanolla uuden top.sls tiedoston. Tähän tiedostoon kirjoitetaan useampia saltti tiloja joita haluan ajaa kerralla valituilla koneilla. Tein seuraavat konfiguraatiot:
+Tässä tehtävässä loin aluksi uuden hakemiston /srv/salt/ jonne loin nanolla uuden top.sls tiedoston. Tähän tiedostoon kirjoitetaan useampia saltti tiloja joita haluan ajaa kerralla valituilla koneilla. Tein seuraavat konfiguraatiot /srv/salt/top.sls tiedostoon:
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/a239f3d0-c427-4d5e-a212-7734df435bba)
 
-Kyseisessä konffissa saltti siis lukee tuon top.sls tiedoston ja katsoo sen sisällöstä tarvittavat tehtävät. Tässä tapauksessa se siis katsoo mille minion koneille tuo top.sls ajateaan ja minkä tiedoston perusteella.
+Kyseisessä konffissa saltti siis lukee tuon top.sls tiedoston ja katsoo sen sisällöstä tarvittavat tehtävät. Tässä tapauksessa se siis katsoo mille minion koneille tuo top.sls ajateaan ja minkä tiedoston perusteella (.
 
 Seuraavaksi piti luodo tuo kyseinen tiedosto jota saltti alkaa etsimään. Tein sen vastaavanlaiseksi:
 
