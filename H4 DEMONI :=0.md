@@ -17,6 +17,10 @@ Tein tämän tehtävän ensin luomalla
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/33189bd5-b913-4ad9-bfdf-d303da4b16ab)
 
 
+#c( 
+
+// korvattu sivu man
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/f9bbf7cd-d0a2-424e-98c2-fe5927e06243)
 
 
 
