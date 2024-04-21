@@ -5,7 +5,10 @@ Tässä tehtävässä on tarkoitus luoda Salt-tilafunktio jolla saa tuotettua "H
 Tein tämän tehtävän ensin luomalla 
 
 
-#b) 
+#b) Top. Tee top.sls niin, että useita valitsemiasi tiloja ajetaan automaattisesti
+
+Tässä tehtävässä loin aluksi uuden hakemiston /srv/salt/ jonne loin nanolla uuden top.sls tiedoston. Tähän tiedostoon kirjoitetaan useampia saltti tiloja joita haluan ajaa kerralla valituilla koneilla.
+
 //top.sls /srv/salt/top.sls
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/a239f3d0-c427-4d5e-a212-7734df435bba)
 
@@ -24,3 +27,14 @@ Tein tämän tehtävän ensin luomalla
 
 
 
+
+
+
+
+
+
+
+
+# Lähteet
+
+https://ubuntu.com/tutorials/install-and-configure-apache#3-creating-your-own-website
