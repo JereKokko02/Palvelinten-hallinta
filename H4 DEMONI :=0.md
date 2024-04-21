@@ -33,10 +33,15 @@ Indeksi -sivun vaihdon testasin host-os:n kautta kirjoittamalla virtuaalikoneen 
 
 TÄHÄN init sls apache2!!!!
 
+init sls /srv/salt/init.sls
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/27e1e76c-bc91-4364-aca3-088d35e8b2bc)
 
 
+Init ajo
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/ede99b3b-99b2-48a4-8bc2-9cb9027f8258)
 
 
++ miksi ei onnistunut
 
 
 # Lähteet
