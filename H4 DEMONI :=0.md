@@ -11,7 +11,7 @@ Tässä tehtävässä loin aluksi uuden hakemiston /srv/salt/ jonne loin nanolla
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/a239f3d0-c427-4d5e-a212-7734df435bba)
 
-Kyseisessä konffissa saltti siis lukee tuon top.sls tiedoston ja katsoo sen sisällöstä tarvittavat tehtävät. Tässä tapauksessa se siis katsoo mille minion koneille tuo top.sls ajateaan ja minkä tiedoston perusteella (.
+Kyseisessä konffissa saltti siis lukee tuon top.sls tiedoston ja katsoo sen sisällöstä tarvittavat tehtävät. Tässä tapauksessa se siis katsoo mille minion koneille tuo top.sls ajateaan ja minkä tiedoston perusteella (testi1).
 
 Seuraavaksi piti luodo tuo kyseinen tiedosto jota saltti alkaa etsimään. Tein sen vastaavanlaiseksi:
 
@@ -28,10 +28,10 @@ Tein manuaalisen asennuksen ihan vain seuraamalla Ubuntu.comin ohjeita (lähde 4
 
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/f9bbf7cd-d0a2-424e-98c2-fe5927e06243)
 
-Indeksi -sivun vaihdon testasin host-os:n kautta kirjoittamalla virtuaalikoneen ip-osoitteen hakukenttään.
+Indeksi -sivun vaihdon testasin host-os:n kautta kirjoittamalla virtuaalikoneen ip-osoitteen hakukenttään (edel.kuva).
 
 
-
+TÄHÄN init sls apache2!!!!
 
 
 
