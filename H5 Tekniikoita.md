@@ -28,6 +28,13 @@ Tällä hetkellä olen jumissa tehtävässä, sillä minun windows-minion ei suo
 - kaikki tarvittavat oikeudet on annettu saltille windowssilla
 - minioni on vielä kerran asennettu puhtaasti uudelleen ja vanhat tiedot poistettu
 
+
+Windowssissa toimii paikallisesti "salt-call --local test.ping" eli saltti siis tosiaan toimii paikallisesti, mutta ei halua kommunikoida masterin kanssa
+
+
+
+
+
 Tätä vielä vaikeuttaa se, että saltin sivuilla ja yleisestikin netissä on hyvin vähän tietoa windows minionin ongelmanratkaisusta/toiminnasta
 
 
