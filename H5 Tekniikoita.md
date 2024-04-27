@@ -40,6 +40,7 @@ SALTTIA SUORITETAAN KONEESSA
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/630b8851-f993-4451-a51b-46070f34aa74)
 
 
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/e2da4162-3874-45da-8119-9cd6ceb71c58)
 
 
 Tätä vielä vaikeuttaa se, että saltin sivuilla ja yleisestikin netissä on hyvin vähän tietoa windows minionin ongelmanratkaisusta/toiminnasta
