@@ -9,14 +9,26 @@
 - Lopussa ongelmanratkaisua.
 
 
-# a) Saltti windowsi
+# a) Saltti windowsille
 
-![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/4d4f2532-1c75-4b89-a25d-ec68c0107818)
-
+Olin asentanut saltin windowsille jo aikaisemmin:
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/95c496f2-aa76-4253-b830-fdd159a733db)
 
 
+# b) Kerää koneesta tietoa grains.items moduulilla.
 
+Tällä hetkellä olen jumissa tehtävässä, sillä minun windows-minion ei suostu työskentelemään master-koneen kanssa. Saltti on täysin oikein konffattu ja avaimien vaihto onnistui koneiden välillä mutta edes test.ping ei välity windows-minionille. Tämä on sangen eriskummallista sillä:
+
+- Configi tehty oikein (varmistettu useaan otteeseen)
+- oikeat portit ovat aukaistu (4505-4506)
+- Avaimien vaihto onnistui
+- toinen linux minioni toimii masterin kanssa
+- windowskoneen manuaalinen pingaaminen onnistuu
+- linuxin kello on kunnossa
+- kaikki tarvittavat oikeudet on annettu saltille windowssilla
+- minioni on vielä kerran asennettu puhtaasti uudelleen ja vanhat tiedot poistettu
+
+Tätä vielä vaikeuttaa se, että saltin sivuilla ja yleisestikin netissä on hyvin vähän tietoa windows minionin ongelmanratkaisusta/toiminnasta
 
 
 
