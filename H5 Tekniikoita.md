@@ -36,6 +36,8 @@ VIRHEILMOITUS TEST.PING komennosta MASTER-KONEEN PUOLELLA:
 
 Windowssissa toimii kuitenkin paikallisesti "salt-call --local test.ping" eli saltti siis tosiaan toimii paikallisesti, mutta ei halua kommunikoida masterin kanssa
 
+SALTTIA SUORITETAAN KONEESSA
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/630b8851-f993-4451-a51b-46070f34aa74)
 
 
 
