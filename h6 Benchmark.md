@@ -27,7 +27,7 @@ Apache 2.0, eli työtä saa muokata, jakaa, käyttää ja käyttää osana muita
 Arnold Bechtoldt, viimeisin muokkaus: Dec 18, 2015 
 
 - Riippuvuudet:
-Saltti pitää olla asennettuna masterille ja minionille.
+Saltti pitää olla asennettuna masterille ja minionille. Myös saltin versio saattaa vaikuttaa toimivuuteen.
 
 
 
