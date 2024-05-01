@@ -31,6 +31,7 @@ Saltti pitää olla asennettuna masterille ja minionille. Myös saltin versio sa
 
 
 
+2. https://perfecto25.medium.com/using-saltstack-for-emergency-sudoers-access-tempsudo-d5417e528e4d + github koodit https://gist.github.com/perfecto25/f7a682cb5dca17bdd9c0bd5aa6394bd1
 
 
 
