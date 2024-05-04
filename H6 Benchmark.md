@@ -81,11 +81,10 @@ Tämän jälkeen ajoin moduulin paikallisesti komennolla "sudo salt-call --local
 
  ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/cb459189-b4d4-4818-8fdb-43f3687cd8c4)
 
-Sain vastaavan virheilmoituksen salt-minionin lokitiedostosta:
- ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/2aae8d9f-c3a1-4264-a9a0-d51030558f6e)
- 
-En ole täysin varma mitä tämä tarkoittaa, sillä dns asetukset toimivat koneellani.
 
+
+Toimiva
+![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/101ddc86-abab-4d2c-b0ad-9a27aa190192)
 
 
 
