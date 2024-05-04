@@ -11,6 +11,9 @@
 # a) //Tällä hetkellä windowsin kanssa ongelmaa, jos saan ratkaistua ongelman päivitän tämän viestin ennen tiistaita 7.5//
 
 
+
+
+
 # b) Benchmark
 
 ## 1. https://github.com/arnisoph/salt-modules
@@ -91,21 +94,14 @@ Moduuli siis toimii ja se asentaa halutut ohjelmat/paketit.
 
 Mielestäni tämä moduuli on todella hyvä ensimmäinen moduuli, sillä siitä on hyötyä käyttäjälle. Moduuli nimittäin voidaan ajaa uudelle virtuaalikone minionille joka nopeuttaa aina sen konfigurointia. Tässä moduulissa on myös tehty askelta vaikeampaa, eli muutettu ufw asetuksia ja saatu ne toimimaan kaikilla koneilla joissa tila voidaan ajaa.
 
-&nbsp;
-&nbsp;
-&nbsp;
-jee
-&nbsp;
-&nbsp;
-&nbsp;
 
-# d) Viisi omaa ideaa moduulille:
+# d) Viisi omaa ideaa modulille:
 
-1. Moduuli joka asentaa haluttuja paketteja uudelle koneelle.
-2. Moduuli joka palauttaa tietoja masterille minion koneesta (esim ip, os, valmistaja jne).
-3. Moduuli joka luo jotakin uutta ja muokkaa sitä (esim apachen konfigurointi ja sille verkkosivun luonti).
-4. Moduuli joka poistaa kaikkien minionien avaimet.
-5. Moduuli joka tuhoaa kaikki minion-koneet ja poistaa ne.
+1. Moduli joka asentaa haluttuja paketteja uudelle koneelle.
+2. Moduli joka palauttaa tietoja masterille minion koneesta (esim ip, os, valmistaja jne).
+3. Moduli joka luo jotakin uutta ja muokkaa sitä (esim apachen konfigurointi ja sille verkkosivun luonti).
+4. Moduli joka poistaa kaikkien minionien avaimet.
+5. Moduli joka tuhoaa kaikki minion-koneet ja poistaa ne.
 
 
 
