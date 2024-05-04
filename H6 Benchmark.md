@@ -31,7 +31,7 @@ Saltti pitää olla asennettuna masterille ja minionille. Myös saltin versio sa
 
 
 
-"" 2. https://perfecto25.medium.com/using-saltstack-for-emergency-sudoers-access-tempsudo-d5417e528e4d + github koodit https://gist.github.com/perfecto25/f7a682cb5dca17bdd9c0bd5aa6394bd1
+## 2. https://perfecto25.medium.com/using-saltstack-for-emergency-sudoers-access-tempsudo-d5417e528e4d + github koodit https://gist.github.com/perfecto25/f7a682cb5dca17bdd9c0bd5aa6394bd1
 
 Tämä on yhden nimeättömän yrityksen työntekijän luoma ja käyttämä salt-moduuli joka mahdollistaa sudo-oikeuksien antamisen tietyille käyttäjille. Kyseinen yritys käyttää tätä varsinkin sellaisissa tapauksissa joissa yrityksen normaali järjestelmäasiantuntija ei ole paikalla tai on lomalla ja yrityksellä on tarvetta päästä muokkaamaan palvelinten tiloja tai tarvitsevat sudo-oikeudet hätätapauksien vuoksi.
 
@@ -48,7 +48,7 @@ Tämä on yhden nimeättömän yrityksen työntekijän luoma ja käyttämä salt
   Ainakin ohje on tehty linux-ympäristössä, eli riippuvuutena on linux kondeiden käyttö, sekä saltin asennus näille koneille.
 
 
-"" 3. https://tuomasvalkamo.com/how-to-create-your-own-salt-module/ + github https://github.com/tuomasvalkamo/starter-module
+## 3. https://tuomasvalkamo.com/how-to-create-your-own-salt-module/ + github https://github.com/tuomasvalkamo/starter-module
 
 Tämä on yhden aikaisemman kurssin opiskelijan tekemä oman moduulin lopputyö.
 
