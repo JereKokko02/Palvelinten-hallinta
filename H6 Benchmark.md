@@ -48,7 +48,21 @@ Tämä on yhden nimeättömän yrityksen työntekijän luoma ja käyttämä salt
   Ainakin ohje on tehty linux-ympäristössä, eli riippuvuutena on linux kondeiden käyttö, sekä saltin asennus näille koneille.
 
 
+3. https://tuomasvalkamo.com/how-to-create-your-own-salt-module/ + github https://github.com/tuomasvalkamo/starter-module
 
+Tämä on yhden aikaisemman kurssin opiskelijan tekemä oman moduulin lopputyö.
+
+- Tarkoitus:
+  Asentaa muutamia aloitusohjelmia minionille. mm openssh, netcat, micro jne. Samalla tässä on ohjeet ensimmäisen salt-moduulin luomiseen.
+
+- Lisenssi: 
+GNU General Public License v3.0. Työtä saa jakaa ja käyttää kunhan sitä ei muokkaa itse.
+
+- Tekijä ja vuosi:
+Tuomas Valkamo, 13.12.2022
+
+- Riippuvuudet:
+Linux-ympäristö, tehty vagrantilla.
 
 
 
