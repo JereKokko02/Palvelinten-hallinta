@@ -82,11 +82,11 @@ Tämän jälkeen ajoin moduulin paikallisesti komennolla "sudo salt-call --local
  ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/cb459189-b4d4-4818-8fdb-43f3687cd8c4)
 
 
+Ratkaisu tähän olikin aika simppeli. Kun saltti jäi jumiin tuohon ufw kohtaan niin kirjoitin vahingossa komennon "exit" ilman moduulin ajon pysäytystä. Tämä jostain syystä sai jatkettua moduulin suoritusta ja se ajoi itsensä loppuun saakka:
 
-Toimiva
 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/101ddc86-abab-4d2c-b0ad-9a27aa190192)
 
-
+Moduuli siis toimii ja se asentaa halutut ohjelmat/paketit.
 
 
 
