@@ -8,7 +8,7 @@
 - komentoja winrepon käyttöön.
 
 
-# a) dsdsdsds
+# a) //Tällä hetkellä windowsin kanssa ongelmaa, jos saan ratkaistua ongelman päivitän tämän viestin ennen tiistaita 7.5//
 
 
 # b) Benchmark
@@ -71,8 +71,9 @@ Linux-ympäristö, tehty vagrantilla.
 
 
 
+# c)
 
-Testasin moduulin nr.3 toimivuutta seuraamalla sen github repositoryn "readME" ohjetta.
+- Testasin moduulin nr.3 toimivuutta seuraamalla sen github repositoryn "readME" ohjetta. Valitsin tämän moduulin siksi, että se vaikutti minusta kiinnostavalta ja simppeliltä. Aloittamalla simppelillä moduulilla saan myös itse ymmärrettyä sen toimintaa paremmin. Valintaan vaikutti myös sen kotisivujen kattavuus, sille sivujen ohje on hyvin kattava ja sitä oli helppo seurata.
 
 
 Testaaminen oli simppeliä, sillä ajoin komennon: "git clone https://github.com/tuomasvalkamo/starter-module" sijaintiin /srv/salt.
@@ -88,6 +89,23 @@ Ratkaisu tähän olikin aika simppeli. Kun saltti jäi jumiin tuohon ufw kohtaan
 
 Moduuli siis toimii ja se asentaa halutut ohjelmat/paketit.
 
+Mielestäni tämä moduuli on todella hyvä ensimmäinen moduuli, sillä siitä on hyötyä käyttäjälle. Moduuli nimittäin voidaan ajaa uudelle virtuaalikone minionille joka nopeuttaa aina sen konfigurointia. Tässä moduulissa on myös tehty askelta vaikeampaa, eli muutettu ufw asetuksia ja saatu ne toimimaan kaikilla koneilla joissa tila voidaan ajaa.
+
+&nbsp;
+&nbsp;
+&nbsp;
+jee
+&nbsp;
+&nbsp;
+&nbsp;
+
+# d) Viisi omaa ideaa moduulille:
+
+1. Moduuli joka asentaa haluttuja paketteja uudelle koneelle.
+2. Moduuli joka palauttaa tietoja masterille minion koneesta (esim ip, os, valmistaja jne).
+3. Moduuli joka luo jotakin uutta ja muokkaa sitä (esim apachen konfigurointi ja sille verkkosivun luonti).
+4. Moduuli joka poistaa kaikkien minionien avaimet.
+5. Moduuli joka tuhoaa kaikki minion-koneet ja poistaa ne.
 
 
 
