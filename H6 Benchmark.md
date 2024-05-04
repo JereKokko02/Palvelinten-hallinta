@@ -15,7 +15,7 @@
 
 1. https://github.com/arnisoph/salt-modules
 
-Tämä on yksityisen henkilön luoma github sivu, jossa hän on luonut muutaman salt-moduulin joita hänen mukaansa voi käyttää työelämässä.
+Tämä on yksityisen henkilön luoma github sivu, jossa hän on luonut muutaman salt-moduulin joita hänen mukaansa voi käyttää esimerkiksi tavallisessa työelämässä.
 
 - tarkoitus: 
 Hakee tietoa salt-minionin järjestelmän ajasta sekä tallennustilan käytöstä.
@@ -32,6 +32,8 @@ Saltti pitää olla asennettuna masterille ja minionille. Myös saltin versio sa
 
 
 2. https://perfecto25.medium.com/using-saltstack-for-emergency-sudoers-access-tempsudo-d5417e528e4d + github koodit https://gist.github.com/perfecto25/f7a682cb5dca17bdd9c0bd5aa6394bd1
+
+   Tämä on yhden nimeättömän yrityksen luoma ja käyttämä salt-moduuli joka mahdollistaa sudo-oikeuksien antamisen tietyille käyttäjille. Kyseinen yritys käyttää tätä varsinkin sellaisissa tapauksissa joissa yrityksen normaali järjestelmäasiantuntija ei ole paikalla tai on lomalla ja yrityksellä on tarvetta päästä muokkaamaan palvelinten tiloja tai tarvitsevat sudo-oikeudet hätätapauksien vuoksi.
 
 
 
