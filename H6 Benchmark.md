@@ -71,18 +71,20 @@ Linux-ympäristö, tehty vagrantilla.
 
 
 
-d
 
 Testasin moduulin nr.3 toimivuutta seuraamalla sen github repositoryn "readME" ohjetta.
 
+
 Testaaminen oli simppeliä, sillä ajoin komennon: "git clone https://github.com/tuomasvalkamo/starter-module" sijaintiin /srv/salt.
 
-Tämän jälkeen ajoin moduulin komennolla "sudo salt-call --local state.apply starter-module".
+Tämän jälkeen ajoin moduulin paikallisesti komennolla "sudo salt-call --local state.apply starter-module". Kuten seuraavasta kuvasta voi huomata, vain moduulin ensimmäinen "pkg.installed ufw" ajettiin osittain. Koko moduuli ei siis toiminut ainakaan omalla virtuaalikoneellani.
 
-2 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/cb459189-b4d4-4818-8fdb-43f3687cd8c4)
+ ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/cb459189-b4d4-4818-8fdb-43f3687cd8c4)
 
-1 ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/2aae8d9f-c3a1-4264-a9a0-d51030558f6e)
-
+Sain vastaavan virheilmoituksen salt-minionin lokitiedostosta:
+ ![image](https://github.com/JereKokko02/Palvelinten-hallinta/assets/165003744/2aae8d9f-c3a1-4264-a9a0-d51030558f6e)
+ 
+En ole täysin varma mitä tämä tarkoittaa, sillä dns asetukset toimivat koneellani.
 
 
 
