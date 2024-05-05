@@ -53,9 +53,9 @@ Windowssissa toimii kuitenkin paikallisesti "salt-call --local test.ping" eli sa
 
 ## LOPPUYHTEENVETO
 
-Olen yrittänyt ratkaista tätä tehtävää jo yli viikon ajan, mutta en ole silti saanut koneita tekemään yhteistyötä. Tämä tarkoittaa sitä, että en pysty tekemään tehtävä eteenpäin. Tämä johtuu joko omasta vähäisestä ymmärryksestä salttia kohtaan, inhimillisestä virheestä jota en ole huomannut. tai omalla windows-koneellani on yksi asetus tai väärä kirjain jossakin kohtaa sen tiedostoissa.
+Olen yrittänyt ratkaista tätä tehtävää jo yli viikon ajan, mutta en ole silti saanut koneita tekemään yhteistyötä. Tämä tarkoittaa sitä, että en pysty tekemään tehtävä eteenpäin. Tämä johtuu joko omasta vähäisestä ymmärryksestä salttia kohtaan, inhimillisestä virheestä jota en ole huomannut, tai omalla windows-koneellani on yksi asetus tai väärä kirjain jossakin kohtaa sen tiedostoissa.
 
-Minion lokissa esiintyviin virheilmoituksiin ei löydy netissä ainakaan omien hakutuloksien perusteella dokumentointia, eikä kukaan muukaan käyttäjä ole kohdannut samaa ongelmaa kuin minä. Ongelman ratkaisua vaikeuttaa vielä se, että netissä ei ole muutenkaan dokumentoitu saltin käyttö windowssissa yhtä perusteellisesti kuin linuxissa (en itsekään pidä windowssista niin ymmärrän tämän täysin). Joudun nyt siis toistaiseksi hyväksymään tappioni, mutta yritän vielä saada ratkaisun ongelmaani.
+Minion lokissa esiintyviin virheilmoituksiin ei löydy netissä ainakaan omien hakutuloksien perusteella dokumentointia, eikä kukaan muukaan käyttäjä ole kohdannut samaa ongelmaa kuin minä. Ongelman ratkaisua vaikeuttaa vielä se, että netissä ei ole muutenkaan dokumentoitu saltin käyttöä windowssissa yhtä perusteellisesti kuin linuxissa (en itsekään pidä windowssista niin ymmärrän tämän täysin). Joudun nyt siis toistaiseksi hyväksymään tappioni, mutta yritän vielä saada ratkaisun ongelmaani.
 
 
 
