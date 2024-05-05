@@ -27,6 +27,7 @@ Tällä hetkellä olen jumissa tehtävässä, sillä minun windows-minion ei suo
 - linuxin kello on kunnossa
 - kaikki tarvittavat oikeudet on annettu saltille windowssilla
 - minioni on vielä kerran asennettu puhtaasti uudelleen ja vanhat tiedot poistettu
+- Asensin vielä Debian11/bullseyelle saman salt version manuaalisesti tätä ohjetta noudattaen: https://docs.saltproject.io/salt/install-guide/en/latest/topics/install-by-operating-system/debian.html#install-salt-on-debian-11-bullseye-amd64. Tämäkään ei ratkaissut ongelmaa.
 
 
 
