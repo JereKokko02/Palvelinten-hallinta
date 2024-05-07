@@ -98,7 +98,7 @@ Mielestäni tämä moduuli on todella hyvä ensimmäinen moduuli, sillä siitä 
 # d) Viisi omaa ideaa modulille: //päivitetty 7.5 tunnilla//
 
 1. Moduli joka asentaa haluttuja paketteja uudelle koneelle.
-2. Moduli joka palauttaa tietoja masterille minion koneesta (esim ip, os, valmistaja jne).
+2. Moduli joka palauttaa tietoja masterille minion koneesta (esim ip, os, valmistaja jne). Syy: tietoja koneesta runtime, ram käyttö jne.
 3. Moduli joka luo jotakin uutta ja muokkaa sitä (esim apachen konfigurointi ja sille verkkosivun luonti).
 4. Moduli joka poistaa kaikkien minionien avaimet.
 5. Moduli joka tuhoaa kaikki minion-koneet ja poistaa ne.
