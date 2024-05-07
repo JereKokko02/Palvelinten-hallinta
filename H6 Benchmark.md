@@ -95,16 +95,20 @@ Moduuli siis toimii ja se asentaa halutut ohjelmat/paketit.
 Mielestäni tämä moduuli on todella hyvä ensimmäinen moduuli, sillä siitä on hyötyä käyttäjälle. Moduuli nimittäin voidaan ajaa uudelle virtuaalikone minionille joka nopeuttaa aina sen konfigurointia. Tässä moduulissa on myös tehty askelta vaikeampaa, eli muutettu ufw asetuksia ja saatu ne toimimaan kaikilla koneilla joissa tila voidaan ajaa.
 
 
-# d) Viisi omaa ideaa modulille:
+# d) Viisi omaa ideaa modulille: //päivitetty 7.5 tunnilla//
 
 1. Moduli joka asentaa haluttuja paketteja uudelle koneelle.
 2. Moduli joka palauttaa tietoja masterille minion koneesta (esim ip, os, valmistaja jne).
 3. Moduli joka luo jotakin uutta ja muokkaa sitä (esim apachen konfigurointi ja sille verkkosivun luonti).
 4. Moduli joka poistaa kaikkien minionien avaimet.
 5. Moduli joka tuhoaa kaikki minion-koneet ja poistaa ne.
+6. Moduli joka muuttaa ufw -asetuksia minion koneissa
+## --------------------KOMMENTIT---------------------------------
+3. Esimerkiksi apachen verkkosivun luominen jokaiseen minion koneeseen, sen oletussivun korvaaminen sekä sen lisäksi siihen jonkin muun toiminnon lisääminen, esimerkiksi sen suojaaminen. -- pkg.installed, file.managed
 
+6. Moduuli voi esimerkiksi ajaa komennon -- rm-rf mutta siitä pitää lukea enemmän, sillä siihen liittyy joitakin sääntöjä eri linux distroissa (debian tässä tapauksessa)
 
-
+2. Tämän lisäksi voi etsiä jotain muuta kuten mac-osoitteen ja käyttäjien määrän.
 
 
 
